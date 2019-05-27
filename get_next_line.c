@@ -12,7 +12,7 @@
 
 #include "get_next_line.h"
 
-static int		check_n_0(char *str)
+static int		check_n_0(char *str) //можно ускорить путем strchr
 {
 	int i;
 
